@@ -6,10 +6,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#F5F5F5",
-        secondary: "#00f6ff",
+        secondary: "#00F6FF",
         green: "#B9FCB3",
         pink: "#FC91FE",
-        darkGray: "#616161"
+        yellow: "#FEE691",
+        darkGray: "#616161",
+        lightGray:"#D9D9D9"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden flex-col flex-grow font-inter">
       <Navbar></Navbar>
-      <div className="flex flex-col gap-8 px-20 py-12">
+      <div className="flex flex-col gap-8 px-5 md:px-20 md:py-12">
         <Hero className=""> </Hero>
         <Speakers> </Speakers>
         <QA></QA>

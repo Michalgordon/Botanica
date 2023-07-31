@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .speaker-container{
   width: 150px;
   height: 150px;
@@ -43,3 +47,6 @@
     width: 0;
     height: 0;
   }
+
+
+  
