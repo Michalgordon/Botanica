@@ -1,4 +1,4 @@
-import { ticketTypes } from "./constants";
+import { ticketTypes } from "../constants";
 import { SectionHeader, TicketCard } from "./index";
 
 function Tickets() {
