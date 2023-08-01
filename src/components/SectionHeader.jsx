@@ -1,6 +1,4 @@
-import React from "react";
-import PropTypes from "prop-types"; // ES6
-
+import PropTypes from "prop-types";
 function SectionHeader({ header, subHeader = "" }) {
   return (
     <header className="flex flex-col gap-2">
