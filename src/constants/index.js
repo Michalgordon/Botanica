@@ -2,7 +2,7 @@
 export const ticketTypes = [
     {
       type: "bud",
-      perks: ["8 Entrances for live or online lectures", "1 workshop"],
+      perks: ["8 entrances for live or online lectures", "1 workshop"],
       price: 144,
       signUpNeeded: true,
       color: "green",

@@ -11,14 +11,30 @@ module.exports = {
         pink: "#FC91FE",
         yellow: "#FEE691",
         darkGray: "#616161",
-        lightGray:"#D9D9D9"
+        lightGray:"#D9D9D9",
+        gray: "#FFFFFF"    
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
       fontSize:{
         '3xl': '28px'
-      }
+      },
+    
+    height: {
+      '143': '35.75rem',
+      '150':'37.5rem' 
+    },
+    width:{
+      '90': '22.5rem',
+      '94': '23.5rem',
+      '112': '28rem'
+
+
+    },
+    gap:{
+      '10': '2.5rem',
+      '27':'6.75rem',
     },
     screens: {
       xs: "480px",
@@ -28,6 +44,7 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+  },
   },
   plugins: [],
 };
