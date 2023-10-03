@@ -9,7 +9,7 @@ function Tickets() {
   ));
 
   return (
-    <section className="section--x-scrollable relative md:z-10 flex flex-col w-full bg-primary py-16 ">
+    <section className="section--x-scrollable relative md:z-10 flex flex-col w-full py-16 ">
       <Flower className="absolute invisible md:visible fill-green -top-64 right-20 rotate-45 w-56" />
       <div className="absolute bg-gradient-to-r from-transparent to-gray right-0 top-0 w-12 h-full"></div>
       <SectionHeader

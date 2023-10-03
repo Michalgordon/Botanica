@@ -3,9 +3,9 @@ import { Globe } from "../assets";
 
 const Navbar = () => {
   return (
-    <nav className="w-full p-2">
+    <nav className=" invisible relative z-20 sm:visible w-full p-2">
       <ul className="w-full flex flex-start gap-4">
-        <li className="list-none text-3xl font-thin rounded-full bg-darkGray text-white px-24">
+        <li className="list-none text-3xl font-thin rounded-full bg-green text-black px-24">
           Botanica
         </li>
         <li className="list-none cursor-pointer text-3xl rounded-full px-4 hover:bg-white">
