@@ -3,10 +3,10 @@ import React from "react";
 import { Navbar, Hero, Speakers, QA, Agenda, Tickets } from "./components";
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden flex-col flex-grow font-inter">
+    <div className=" w-full overflow-hidden flex-col flex-grow font-inter">
       <Navbar></Navbar>
-      <div className="flex flex-col gap-8 px-5 md:px-20 md:py-12">
-        <Hero className=""> </Hero>
+      <div className="flex flex-col">
+        <Hero> </Hero>
         <Speakers> </Speakers>
         <QA></QA>
         <Tickets></Tickets>

@@ -3,6 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+
 
 :root {
   --black-gradient: linear-gradient(
@@ -47,6 +49,17 @@
     width: 0;
     height: 0;
   }
+
+  @layer components {
+    .section {
+      @apply md:z-20 px-5 xl:px-40 lg:px-36 md:px-32 md:py-12 gap-y-16
+      }
+      .section--x-scrollable {
+        @apply md:z-20 pl-5 pr-0 xl:px-40 lg:px-36 md:px-32 md:py-12 gap-y-16
+
+        
+      }
+    }
 
 
   
