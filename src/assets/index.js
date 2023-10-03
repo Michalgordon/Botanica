@@ -1,4 +1,5 @@
-import globe from "./globe.svg"
+import Globe from './globe.svg?react'
 import headshot from "./headshot.svg"
+import Flower from "./flower.svg?react"
 
-export {globe, headshot}
+export {Globe, headshot, Flower}
