@@ -23,9 +23,11 @@ module.exports = {
     
     height: {
       '143': '35.75rem',
-      '150':'37.5rem' 
+      '150':'37.5rem',
+      '200': '50rem'
     },
     width:{
+      '29': '7.25rem',
       '90': '22.5rem',
       '94': '23.5rem',
       '112': '28rem'
@@ -35,6 +37,9 @@ module.exports = {
     gap:{
       '10': '2.5rem',
       '27':'6.75rem',
+    },
+    rotate: {
+      '53': '53deg',
     },
     screens: {
       xs: "480px",

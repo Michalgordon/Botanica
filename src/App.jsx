@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Hero, Speakers, QA, Agenda, Tickets } from "./components";
 const App = () => {
   return (
-    <div className=" w-full overflow-hidden flex-col flex-grow font-inter">
+    <div className="bg-primary w-full overflow-hidden flex-col flex-grow font-inter">
       <Navbar></Navbar>
       <div className="flex flex-col">
         <Hero> </Hero>
