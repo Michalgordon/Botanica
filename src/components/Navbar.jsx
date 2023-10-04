@@ -31,9 +31,7 @@ const Navbar = () => {
           <li className="list-none cursor-pointer uppercase text-3xl rounded-full px-4 hover:bg-white">
             Search
           </li>
-          <div className="w-[52px] hover:bg-white hover:rounded-full">
-            <Globe className="w-[42px] h-[42px] fill-black hover" />
-          </div>
+          <Globe className="w-[42px] h-[42px] fill-black" />
         </ul>
       </ul>
     </nav>
