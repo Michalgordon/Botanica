@@ -2,7 +2,7 @@ import React from "react";
 
 function QA() {
   return (
-    <section className="section flex w-full bg-white ">
+    <section id="qa" className="section flex w-full bg-white ">
       <div className="flex grow">
         {" "}
         <video src="">video </video>

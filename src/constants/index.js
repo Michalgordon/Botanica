@@ -1,4 +1,22 @@
+export const navbarItems=[
+  {
+    title: "speakers",
+    navTo: "speakers"
+  },
+  {
+    title: "agenda",
+    navTo: "agenda"
+  },
+  {
+    title: "q&a",
+    navTo: "qa"
+  },
+  {
+    title: "tickets",
+    navTo: "tickets"
+  },
 
+]
 export const ticketTypes = [
     {
       type: "bud",
