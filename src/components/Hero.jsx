@@ -3,8 +3,12 @@ import { Tulip, Flower, Star, HeroTitle, ArrowDown } from "../assets";
 
 const Hero = () => {
   return (
-    <section id="home" className="section z-10 relative h-200">
-      <div className="flex flex-col gap-12 sm:gap-14 md:gap-16">
+    <section id="home" className="section relative h-200">
+      <Flower className="absolute  -bottom-56 -left-40 md:-bottom-40 md:left-96 rotate-53 fill-green opacity-60 w-11/12"></Flower>
+      <Tulip className="absolute  -top-10 right-1/4 rotate-45 fill-pink opacity-60 w-8/12"></Tulip>
+      <Star className="absolute bottom-5 left-1/2   fill-yellow opacity-60 w-11/12"></Star>
+
+      <div className="flex flex-col gap-12 sm:gap-14 md:gap-16 opacity-95">
         <h3 className="text-base sm:text-xl md:text-2xl">
           INTERNATIONAL BOTANY SOCIETY, PLANTING SEEDS FOR A BETTER FUTURE
         </h3>
@@ -21,9 +25,6 @@ const Hero = () => {
         </p>
         <ArrowDown className="fill-black w-30 sm:w-40 md:w-52"></ArrowDown>
       </div>
-      <Flower className="absolute -z-10 -bottom-56 -left-40 md:-bottom-40 md:left-96 rotate-53 fill-green opacity-60 w-11/12"></Flower>
-      <Tulip className="absolute -z-10 -top-10 right-1/4 rotate-45 fill-pink opacity-60 w-8/12"></Tulip>
-      <Star className="absolute -z-10 bottom-5 left-1/2   fill-yellow opacity-60 w-11/12"></Star>
     </section>
   );
 };

@@ -6,5 +6,6 @@ import HeroTitle from "./hero-title.svg?react"
 import Sun from "./sun.svg?react"
 import Star from "./star.svg?react"
 import ArrowDown from "./arrow-down.svg?react"
+import HamburgerClosed from "./hamburger-closed.svg?react"
 
-export {Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown}
+export {Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed}
