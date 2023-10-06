@@ -1,22 +1,36 @@
-export const navbarItems=[
+import { Agenda, MsgBubble, QuestionMark, Ticket } from "../assets";
+
+export const NAV_BAR_ITEMS=[
   {
     title: "speakers",
-    navTo: "speakers"
+    navTo: "speakers",
+    svg: MsgBubble
   },
   {
     title: "agenda",
-    navTo: "agenda"
+    navTo: "agenda",
+    svg: Agenda
+
   },
   {
     title: "q&a",
-    navTo: "qa"
+    navTo: "qa",
+    svg: QuestionMark
+
   },
   {
     title: "tickets",
-    navTo: "tickets"
-  },
+    navTo: "tickets",
+    svg: Ticket
 
+  },
 ]
+export const LANGUAGES = [
+  {language: 'english', shortLanguage: 'en'},
+  {language: 'french', shortLanguage: 'fr'},
+  { language: 'spanish', shortLanguage:'es'}
+]
+
 export const ticketTypes = [
     {
       type: "bud",

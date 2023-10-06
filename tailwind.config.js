@@ -48,6 +48,9 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    borderRadius:{
+      '4xl': "32px"
+    }
   },
   },
   plugins: [],
