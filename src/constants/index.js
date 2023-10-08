@@ -60,5 +60,12 @@ export const ticketTypes = [
       price: 356,
       signUpNeeded: false,
       color: "pink",
-    },
+    }
+
+ 
   ];
+  export const QA_QUESTIONS = [
+{question: "Where is the nearest airport?", answer: "Every workshop will send the specific details a week before the conference via email."},
+{question: "Should I bring anything for the workshops?", answer: "Every workshop will send the specific details a week before the conference via email."},
+{question: "Which are the recommended hotels in the area?", answer: "Every workshop will send the specific details a week before the conference via email."},
+  ]

@@ -18,16 +18,22 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       fontSize:{
-        '3xl': '28px'
+        '2.5xl': '26px',
+        '3xl': '28px',
+        '4.5xl': '40px',
+        '7.5xl': '80px'
+
       },
     
     height: {
+      '54': '13.5rem',
       '143': '35.75rem',
       '150':'37.5rem',
       '200': '50rem'
     },
     width:{
       '29': '7.25rem',
+      '54': '13.5rem',
       '90': '22.5rem',
       '94': '23.5rem',
       '112': '28rem'
