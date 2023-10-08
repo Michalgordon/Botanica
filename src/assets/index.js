@@ -12,5 +12,8 @@ import MsgBubble from "./msg-bubble.svg?react"
 import QuestionMark from "./question-mark.svg?react"
 import Ticket from "./ticket.svg?react"
 import Search from "./search.svg?react"
+import Plus from "./plus.svg?react"
+import Minus from "./minus.svg?react"
+import Gallery from "./gallery.svg?react"
 
-export {Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search}
+export {Gallery, Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
