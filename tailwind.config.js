@@ -48,11 +48,12 @@ module.exports = {
       '53': '53deg',
     },
     screens: {
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
+      ss: {'min': '320px', 'max': '620px'}, //mobile
+      sm: "768px", //tablet
+      md: "1060px", //desktop
       lg: "1200px",
       xl: "1700px",
+      
     },
     borderRadius:{
       '4xl': "32px"

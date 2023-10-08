@@ -32,8 +32,7 @@
 
      
 .speaker-img{
-  height: 100%;
-  width:100%;
+
   background-image: url(./assets/headshot.svg);
   background-size: cover;
 
@@ -52,10 +51,13 @@
 
   @layer components {
     .section {
-      @apply  px-5 py-14 md:px-32 md:py-20 lg:py-32 lg:px-36 gap-y-16 
+      @apply  px-5 py-14 md:px-32 md:py-20 lg:py-32 lg:px-40  
+      }
+      .section--col{
+        @apply flex flex-col gap-y-10 md:gap-y-16
       }
       .section--x-scrollable {
-        @apply  pl-5 pr-0 section 
+        @apply  pl-5 pr-0 md:section 
 
         
       }
