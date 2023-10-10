@@ -8,6 +8,7 @@ import {
   Agenda,
   Tickets,
   Footer,
+  ContactUs,
 } from "./components";
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
         <QA></QA>
         <Tickets></Tickets>
+        <ContactUs />
         <Footer></Footer>
       </div>
     </div>

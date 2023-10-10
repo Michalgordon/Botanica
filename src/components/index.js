@@ -7,6 +7,7 @@ import TicketCard from "./TicketCard";
 import Agenda from "./Agenda";
 import SectionHeader from "./SectionHeader";
 import Footer from "./Footer";
+import ContactUs from "./ContactUs";
 export {
     Navbar,
     Hero,
@@ -16,5 +17,6 @@ export {
     TicketCard,
     Agenda,
     SectionHeader,
-    Footer
+    Footer,
+    ContactUs
 };

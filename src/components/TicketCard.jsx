@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { Fragment } from "react";
 
 const TicketCard = ({ type, perks, price, signUpNeeded = false, color }) => {
   return (

@@ -3,7 +3,7 @@ import { FOOTER_ITEMS } from "../constants";
 import { Instagram, Twitter, Facebook } from "../assets";
 const Footer = () => {
   return (
-    <div className="flex justify-center md:justify-between items-center py-6 md:pl-10 md:pr-20 md:py-8 lg:pl-14 lg:pr-24 lg:py-12 bg-white">
+    <div className="z-10 flex justify-center md:justify-between items-center py-6 md:pl-10 md:pr-20 md:py-8 lg:pl-14 lg:pr-24 lg:py-12 bg-white">
       <ul className="hidden md:flex md:gap-4 lg:gap-10">
         {FOOTER_ITEMS.map((footerItem, index) => (
           <li key={index} className="uppercase text-base lg:text-3xl">
