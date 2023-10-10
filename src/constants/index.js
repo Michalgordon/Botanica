@@ -163,3 +163,10 @@ export const QA_QUESTIONS = [
     },
 
   ]
+  export const FOOTER_ITEMS = [
+{title: 'terms & conditions'},
+{title: 'privacy'},
+{title: 'settings'},
+{title: 'about'},
+{title: 'contact'},
+  ]

@@ -15,5 +15,10 @@ import Search from "./search.svg?react"
 import Plus from "./plus.svg?react"
 import Minus from "./minus.svg?react"
 import Gallery from "./gallery.svg?react"
+import Instagram from "./instagram.svg?react"
+import Twitter from "./twitter.svg?react"
+import Facebook from "./facebook.svg?react"
 
-export {Gallery, Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
+
+
+export {Instagram, Twitter, Facebook, Gallery, Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
