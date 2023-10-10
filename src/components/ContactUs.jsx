@@ -20,12 +20,14 @@ const ContactUs = () => {
           placeholder="Subject of address"
           id="address"
           className="underline"
+          maxLength="160"
         ></input>
         <input
           type="text"
           placeholder="Your name"
           id="name"
           className="underline"
+          maxLength="30"
         ></input>
         <input
           type="number"
@@ -38,12 +40,14 @@ const ContactUs = () => {
           placeholder="Email"
           id="email"
           className="underline"
+          maxLength="30"
         ></input>
         <input
           type="text"
           placeholder="Message"
           id="message"
           className="underline"
+          maxLength="360"
         ></input>
       </form>
     </div>
