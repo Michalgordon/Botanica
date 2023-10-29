@@ -2,22 +2,8 @@ import React, { useState, useRef } from "react";
 import { Globe, HamburgerClosed } from "../assets";
 import { NAV_BAR_ITEMS, LANGUAGES } from "../constants";
 import { bool, func, object } from "prop-types";
-import { useEffect } from "react";
+import { useOnClickOutside } from "../utils";
 
-export const useOnClickOutside = (ref, handler) => {
-  useEffect(() => {
-    const listener = (event) => {
-      if (!ref.current || ref.current.contains(event.target)) {
-        return;
-      }
-      handler(event);
-    };
-    document.addEventListener("mousedown", listener);
-    return () => {
-      document.removeEventListener("mousedown", listener);
-    };
-  }, [ref, handler]);
-};
 const Burger = ({ open, setOpen }) => {
   return (
     <div>
