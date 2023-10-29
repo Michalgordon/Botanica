@@ -20,6 +20,7 @@ module.exports = {
       fontSize:{
         '2.5xl': '26px',
         '3xl': '28px',
+        '3.25xl': '30px',
         '4.5xl': '40px',
         '7.5xl': '80px'
 
@@ -49,10 +50,9 @@ module.exports = {
     },
     screens: {
       ss: {'min': '320px', 'max': '620px'}, //mobile
-      sm: "768px", //tablet
-      md: "1060px", //desktop
-      lg: "1200px",
-      xl: "1700px",
+      sm: "620px", //tablet
+      md: "1200px", //small desktop
+      lg: "1700px", // large desktop
       
     },
     borderRadius:{

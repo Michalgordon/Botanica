@@ -56,13 +56,13 @@ input::-webkit-inner-spin-button {
 
   @layer components {
     .section {
-      @apply  px-5 py-14 md:px-32 md:py-20 lg:py-32 lg:px-40  
+      @apply  px-5 py-14 md:px-4 md:py-14 lg:py-32 lg:px-40  
       }
       .section--col{
         @apply flex flex-col gap-y-10 md:gap-y-16
       }
       .section--x-scrollable {
-        @apply  pl-5 pr-0 md:section 
+        @apply  pl-5 pr-0 py-14 md:section 
 
         
       }
