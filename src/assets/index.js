@@ -18,7 +18,9 @@ import Gallery from "./gallery.svg?react"
 import Instagram from "./instagram.svg?react"
 import Twitter from "./twitter.svg?react"
 import Facebook from "./facebook.svg?react"
+import Headshot from "./headshot.svg?react"
+import Picture from "./picture.svg?react"
+import ChevronDown from "./chevron-down.svg?react"
+import ChevronUp from "./chevron-up.svg?react"
 
-
-
-export {Instagram, Twitter, Facebook, Gallery, Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
+export {ChevronUp, ChevronDown, Picture, Headshot, Instagram, Twitter, Facebook, Gallery, Globe, headshot, Flower, Tulip, HeroTitle, Sun, Star, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
