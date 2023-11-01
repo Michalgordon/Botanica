@@ -30,7 +30,7 @@ const TicketCard = ({ type, perks, price, signUpNeeded = false, color }) => {
         }`}
       >
         <h1 className="text-6xl font-bold">{price + "$"}</h1>
-        <button className="flex w-1/2 justify-center rounded-full px-4 py-2 border-2 border-lightGray font-semibold text-base hover:bg-white hover:border-white">
+        <button className="w-1/2 button-xl lg:button-2xl border-lightGray hover:bg-white hover:border-white">
           BUY{" "}
         </button>
       </footer>

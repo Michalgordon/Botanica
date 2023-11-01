@@ -12,7 +12,7 @@ import {
 } from "./components";
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden flex-col flex-grow font-inter">
+    <div className="bg-primary overflow-hidden w-full flex-col font-inter">
       <Navbar></Navbar>
       <div className="flex flex-col">
         <Hero> </Hero>

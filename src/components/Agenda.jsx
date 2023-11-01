@@ -57,13 +57,13 @@ function Agenda() {
           <h2 className="text-xl lg:text-2xl ">{agendaEvent.description}</h2>
           <div className="flex gap-4 justify-self-end">
             <button
-              className={`uppercase text-sm lg:text-xl rounded-full border-[1px] py-1 lg:py-2 grow ${
+              className={`button-sm lg:button-xl  grow ${
                 isFullyBooked ? "border-yellow text-yellow" : "border-black"
               }`}
             >
               {isFullyBooked ? "waiting list" : "reserve a seat"}
             </button>
-            <button className="uppercase text-sm lg:text-xl rounded-full border-[1px] border-black py-1 lg:py-2 grow">
+            <button className="button-sm lg:button-xl grow border-black">
               read more
             </button>
           </div>
@@ -127,7 +127,7 @@ function Agenda() {
 
   const AgendaDivider = ({ text }) => {
     return (
-      <div className="sticky left-5 md:relative mx-5 md:w-full overflow-clip	">
+      <div className="sticky left-5 md:relative mx-5 md:w-full overflow-clip">
         <div className="absolute w-full top-1/2 border-b-[1px] border-black"></div>
         <h1 className="relative z-10 m-[0_auto] flex bg-white rounded-full text-base lg:text-2xl uppercase px-7 lg:px-8 py-4 w-fit justify-center	border-[1px] border-lightGray">
           {text}

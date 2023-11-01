@@ -39,7 +39,7 @@ function QA() {
             <QAItem QAItem={qaItem} key={index}></QAItem>
           ))}
         </ul>
-        <button className="uppercase font-semibold border rounded-full w-fit text-lg px-4 py-1 md:text-2xl md:px-6 md:py-2 border-black">
+        <button className="w-fit button-base md:button-xl lg:button-2xl border-black">
           More Q&A
         </button>
       </div>

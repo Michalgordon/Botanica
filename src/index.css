@@ -55,13 +55,35 @@ input::-webkit-inner-spin-button {
  
 
   @layer components {
+    .button {
+      @apply flex items-center justify-center uppercase cursor-pointer rounded-full border-[1px] gap-4 font-semibold
+    }
+    .button-sm{
+      @apply button text-sm py-1.5
+    }
+    .button-base{
+      @apply button text-base px-4 py-1.5 
+    }
+    .button-lg{
+      @apply button text-lg 
+    }
+    .button-xl{
+      @apply button text-xl px-[18px] py-1.5
+    }
+    .button-2xl{
+      @apply button text-2xl px-6 py-2 
+    }
+    .button-3xl{
+      @apply button text-3xl 
+    }
+
     .section {
-      @apply  px-5 py-14 md:px-4 md:py-14 lg:py-32 lg:px-40  
+      @apply  px-5 py-14 md:px-4 md:py-14 lg:py-32 lg:px-40 
       }
-      .section--col{
+    .section--col{
         @apply flex flex-col gap-y-10 md:gap-y-16
       }
-      .section--x-scrollable {
+    .section--x-scrollable {
         @apply  pl-5 pr-0 py-14 md:section 
 
         
