@@ -34,7 +34,7 @@ const NavigationMenu = ({ open, setOpen }) => {
     return (
       <li
         onClick={() => handleClick(navbarItem.navTo)}
-        className="list-none border-none md:font-normal justify-start md:justify-center button button-xl md:button-lg lg:button-3xl md:w-28 lg:w-44 hover:bg-white "
+        className="border-none font-normal md:font-normal justify-start md:justify-center button button-xl md:button-lg lg:button-3xl md:w-28 lg:w-44 hover:bg-white "
       >
         <navbarItem.svg className="md:hidden w-8 stroke-black"></navbarItem.svg>
         {navbarItem.title}
@@ -111,7 +111,7 @@ const LanguageSelector = () => {
 };
 const Botanica = () => {
   return (
-    <div className="list-none flex items-center uppercase tracking-widest font-bold text-2xl sm:text-3xl lg:text-5xl rounded-full h-full bg-green text-black px-24 lg:px-40">
+    <div className="flex items-center uppercase tracking-widest font-bold text-2xl sm:text-3xl lg:text-5xl rounded-full h-full bg-green text-black px-24 lg:px-40">
       Botanica
     </div>
   );
@@ -141,8 +141,8 @@ const Navbar = () => {
         <Botanica />
         <NavigationMenu open={false} setOpen={setOpen}></NavigationMenu>
 
-        <ul className="list-none flex h-full gap-4 ml-auto ">
-          <li className="list-none md:font-normal border-none button button-xl md:button-lg lg:button-3xl md:w-28 lg:w-44 hover:bg-white">
+        <ul className="flex h-full gap-4 ml-auto ">
+          <li className="md:font-normal border-none button button-xl md:button-lg lg:button-3xl md:w-28 lg:w-44 hover:bg-white">
             Search
           </li>
           <LanguageSelector />

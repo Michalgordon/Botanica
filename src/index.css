@@ -10,6 +10,11 @@
   scroll-behavior: smooth;
 }
 
+li, ul{
+  list-style-type: none;
+
+}
+
 input[type="text"], input[type="number"], input[type="email"]
 {
   all: unset;
