@@ -146,7 +146,7 @@ function Agenda() {
           month: "long",
         })}{" "}
         {date.toLocaleString("default", { day: "numeric" }).padStart(2, "0")}{" "}
-        <span className="hidden lg:block">
+        <span className="hidden lg:inline">
           /{date.toLocaleString("default", { weekday: "long" })}
         </span>
       </span>
