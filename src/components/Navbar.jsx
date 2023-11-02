@@ -25,7 +25,7 @@ const NavigationMenu = ({ open, setOpen }) => {
     setOpen(false);
     const element = document?.getElementById(navTo);
     element?.scrollIntoView({
-      block: "start",
+      block: "nearest",
       behavior: "smooth",
     });
   }
