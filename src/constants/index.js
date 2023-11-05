@@ -74,91 +74,91 @@ export const QA_QUESTIONS = [
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "",
+      imgPath: "./src/assets/images/speakers-headshots.svg",
       id: "1"
     },
     {
       name: "PROF. DEKEL LIVNE",
-      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-1.svg",
       id: "2"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src:"",
+      imgPath: "./src/assets/images/speakers-headshots-2.svg",
       id:"3"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "",
+      imgPath: "./src/assets/images/speakers-headshots-3.svg",
       id: "4"
     },
     {
       name: "PROF. DEKEL LIVNE",
-      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-4.svg",
       id: "5"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src:"",
+      imgPath: "./src/assets/images/speakers-headshots-5.svg",
       id:"6"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "",
+      imgPath: "./src/assets/images/speakers-headshots-6.svg",
       id: "7"
     },
     {
       name: "PROF. DEKEL LIVNE",
-      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-7.svg",
       id: "8"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src:"",
+      imgPath: "./src/assets/images/speakers-headshots-8.svg",
       id:"9"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "",
+      imgPath: "./src/assets/images/speakers-headshots-9.svg",
       id: "10"
     },
     {
       name: "PROF. DEKEL LIVNE",
-      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-10.svg",
       id: "11"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src:"",
+      imgPath: "./src/assets/images/speakers-headshots-11.svg",
       id:"12"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src:"",
+      imgPath: "./src/assets/images/speakers-headshots-12.svg",
       id:"13"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "",
+      imgPath: "./src/assets/images/speakers-headshots-13.svg",
       id: "14"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      src: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-14.svg",
       id: "15"
     },
 
