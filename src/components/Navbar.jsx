@@ -1,5 +1,5 @@
 import React, { useState, useRef, Fragment } from "react";
-import { Globe, HamburgerClosed } from "../assets";
+import { Globe, HamburgerClosed } from "../assets/icons";
 import { NAV_BAR_ITEMS, LANGUAGES } from "../constants";
 import { bool, func, object } from "prop-types";
 import { useOnClickOutside } from "../utils";

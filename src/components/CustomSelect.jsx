@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { array, func, string } from "prop-types";
-import { ChevronDown, ChevronUp } from "../assets";
+import { ChevronDown, ChevronUp } from "../assets/icons";
 import { useOnClickOutside } from "../utils";
 
 const CustomSelect = ({ options, selected = "", onChange }) => {

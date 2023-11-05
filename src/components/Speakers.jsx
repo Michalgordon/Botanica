@@ -21,7 +21,7 @@ const Speakers = () => {
         <div
           key={speaker.id}
           style={{
-            backgroundImage: `url("src/assets/headshot.svg")`,
+            backgroundImage: `url("${speaker.imgPath}")`,
           }}
           className="flex shrink-0 w-[303px] h-[303px] justify-center items-center "
         >
@@ -29,7 +29,7 @@ const Speakers = () => {
             <Text speaker={speaker}></Text>
           </div>
         </div>
-        <div className="md:hidden py-6 py-3">
+        <div className="md:hidden py-2 px-3">
           <Text speaker={speaker}></Text>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
-import { Tulip } from "../assets";
+import { Tulip } from "../assets/images";
 const ContactUs = () => {
   return (
     <div className="relative section section--col flex flex-col gap-16 sm:flex-row sm:px-36 sm:py-40 bg-pink">

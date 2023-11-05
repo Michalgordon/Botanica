@@ -1,4 +1,4 @@
-import { Agenda, MsgBubble, QuestionMark, Ticket } from "../assets";
+import { Agenda, MsgBubble, QuestionMark, Ticket } from "../assets/icons";
 
 export const NAV_BAR_ITEMS=[
   {

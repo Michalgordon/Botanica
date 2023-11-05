@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { QA_QUESTIONS } from "../constants";
-import { Plus, Minus, Gallery } from "../assets";
+import { Plus, Minus, Gallery } from "../assets/icons";
 import { SectionHeader } from "./index";
 import { object } from "prop-types";
 

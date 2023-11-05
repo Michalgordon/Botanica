@@ -3,7 +3,6 @@ import SectionHeader from "./SectionHeader";
 import CustomSelect from "./CustomSelect";
 import { AGENDA_DATES, AGENDA_LOCATIONS, AGENDA_EVENTS } from "../constants";
 import { object, bool, string, instanceOf } from "prop-types";
-import { Picture } from "../assets";
 
 function Agenda() {
   const [currentDate, setCurrentDate] = useState(AGENDA_DATES[0]);
@@ -39,15 +38,15 @@ function Agenda() {
     const endTimeString = getTimeString({ dateTime: endDateTime });
     const isMorningEvent = startDateTime.getHours() < "12";
     return (
-      <div className="relative bg-white rounded-2xl aspect-square">
-        <Picture
-          className={`w-full [mask-repeat:no-repeat] rounded-t-2xl`}
+      <div className="relative overflow-hidden bg-white rounded-2xl aspect-square">
+        <img
+          src={agendaEvent.imgPath}
+          className={`object-fill object-[0px_-35px] w-full  [mask-repeat:no-repeat] rounded-t-2xl`}
           style={{
             WebkitMaskImage: `${getRandomMask()}`,
             maskImage: `${getRandomMask()}`,
           }}
-        ></Picture>
-
+        ></img>
         <div className="absolute flex flex-col px-5 lg:px-8 pt-0 gap-4 lg:gap-7 bottom-6 lg:bottom-8 tracking-tight">
           <h2 className="text-xl lg:text-2xl">
             {startTimeString}-{endTimeString}
