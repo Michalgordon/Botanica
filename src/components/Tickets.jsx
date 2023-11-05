@@ -1,8 +1,8 @@
-import { ticketTypes } from "../constants";
+import { TICKET_TYPES } from "../constants";
 import { SectionHeader, TicketCard } from "./index";
 import { Flower } from "../assets/images";
 function Tickets() {
-  const ticketListItems = ticketTypes.map((ticket) => (
+  const ticketListItems = TICKET_TYPES.map((ticket) => (
     <li key={ticket.type} className="flex flex-col snap-center md:basis-1/3">
       <TicketCard {...ticket}> </TicketCard>
     </li>

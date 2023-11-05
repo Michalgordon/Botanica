@@ -31,7 +31,7 @@ export const LANGUAGES = [
   { language: 'spanish', shortLanguage:'es'}
 ]
 
-export const ticketTypes = [
+export const TICKET_TYPES = [
     {
       type: "bud",
       perks: ["8 entrances for live or online lectures", "1 workshop"],
