@@ -74,6 +74,12 @@ export const QA_QUESTIONS = [
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
+      imgPath: "./src/assets/images/speakers-headshots-13.svg",
+      id: "16"
+    },
+    {
+      name: "ROBERT TISSERAND ",
+      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
       imgPath: "./src/assets/images/speakers-headshots.svg",
       id: "1"
     },
@@ -148,12 +154,6 @@ export const QA_QUESTIONS = [
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
       imgPath: "./src/assets/images/speakers-headshots-12.svg",
       id:"13"
-    },
-    {
-      name: "ROBERT TISSERAND ",
-      info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-13.svg",
-      id: "14"
     },
     {
       name: "PROF. DEKEL LIVNE",

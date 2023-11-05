@@ -23,9 +23,9 @@ const Speakers = () => {
           style={{
             backgroundImage: `url("${speaker.imgPath}")`,
           }}
-          className="flex shrink-0 w-[303px] h-[303px] justify-center items-center "
+          className="group flex shrink-0 w-[303px] aspect-square justify-center items-center cursor-default"
         >
-          <div className="hidden md:flex md:flex-col px-6">
+          <div className="hidden md:group-hover:flex md:group-hover:flex-col px-6 ">
             <Text speaker={speaker}></Text>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Speakers = () => {
         header="Speakers"
         subHeader="Get to know who’s coming"
       ></SectionHeader>
-      <ul className="relative flex overflow-x-auto hide-scrollbar gap-10 md:flex md:flex-wrap md:gap-5 justify-center">
+      <ul className="relative flex overflow-x-auto hide-scrollbar lg:gap-4 md:flex md:flex-wrap gap-5 md:justify-center">
         {SPEAKERS.map((speaker) => (
           <SpeakerItem key={speaker.id} speaker={speaker}></SpeakerItem>
         ))}
