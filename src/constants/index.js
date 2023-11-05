@@ -189,7 +189,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 15,
-    id: "1"
+    id: "1",
+    imgPath: "./src/assets/images/agenda-picture-3.svg"
   },
   {
     title: "Of Plants & Pollinators",
@@ -199,7 +200,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 10,
-    id: "2"
+    id: "2",
+    imgPath: "./src/assets/images/agenda-picture-2.svg"
 
   },
   {
@@ -210,7 +212,8 @@ export const QA_QUESTIONS = [
     duration: 2.5,
     available: 15,
     booked: 10,
-    id: "3"
+    id: "3",
+    imgPath: "./src/assets/images/agenda-picture-4.svg"
 
   },
   {
@@ -221,8 +224,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 10,
-    id: "4"
-
+    id: "4",
+    imgPath: "./src/assets/images/agenda-picture-1.svg"
   },
   {
     title: "Hydro DIY",
@@ -232,7 +235,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 15,
-    id: "5"
+    id: "5",
+    imgPath: "./src/assets/images/agenda-picture-5.svg"
 
   },
   {
@@ -243,7 +247,8 @@ export const QA_QUESTIONS = [
     duration: 3,
     available: 15,
     booked: 10,
-    id: "6"
+    id: "6",
+    imgPath: "./src/assets/images/agenda-picture-6.svg"
   },
   {
     title: "Self-Sufficiency Part 1",
@@ -253,7 +258,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 15,
-    id: "7"
+    id: "7",
+    imgPath: "./src/assets/images/agenda-picture-1.svg"
   },
   {
     title: "Buying Land",
@@ -263,8 +269,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 10,
-    id: "8"
-
+    id: "8",
+    imgPath: "./src/assets/images/agenda-picture-3.svg"
   },
   {
     title: "Farm Model Building Part 3",
@@ -274,8 +280,8 @@ export const QA_QUESTIONS = [
     duration: 2.5,
     available: 15,
     booked: 10,
-    id: "9"
-
+    id: "9",
+    imgPath: "./src/assets/images/agenda-picture-6.svg"
   },
   {
     title: "Self-Sufficiency Part 2",
@@ -285,8 +291,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 10,
-    id: "10"
-
+    id: "10",
+    imgPath: "./src/assets/images/agenda-picture-4.svg"
   },
   {
     title: "Hydro DIY",
@@ -296,7 +302,8 @@ export const QA_QUESTIONS = [
     duration: 1.5,
     available: 15,
     booked: 15,
-    id: "11"
+    id: "11",
+    imgPath: "./src/assets/images/agenda-picture-5.svg"
 
   },
   {
@@ -307,7 +314,8 @@ export const QA_QUESTIONS = [
     duration: 3,
     available: 15,
     booked: 10,
-    id: "12"
+    id: "12",
+    imgPath: "./src/assets/images/agenda-picture-6.svg"
   },
 ];
 

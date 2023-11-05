@@ -25,7 +25,7 @@ function Agenda() {
     };
     const getRandomMask = () => {
       const random = Math.floor(Math.random() * 3) + 1;
-      return `url('/src/assets/curve${random}.svg')`;
+      return `url('/src/assets/images/curve${random}.svg')`;
     };
 
     const isFullyBooked = agendaEvent.booked == agendaEvent.available;
