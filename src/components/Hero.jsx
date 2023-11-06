@@ -5,11 +5,11 @@ import { ArrowDown } from "../assets/icons";
 const Hero = () => {
   return (
     <section id="home" className="section relative h-200">
-      <Tulip className="absolute  -top-0 lg:left-1/2 rotate-45 fill-pink opacity-60 w-1/2 sm:w-1/3 lg:w-1/4"></Tulip>
-      <Flower className="absolute  -bottom-56 -left-40 md:-bottom-40 md:left-96 rotate-53 fill-green opacity-60 w-1/2 sm:w-1/3 lg:w-1/4"></Flower>
-      <Star className="absolute bottom-5 left-1/2   fill-yellow opacity-60 w-1/2 sm:w-1/3 lg:w-1/4"></Star>
+      <Tulip className="absolute top-[-33px] left-[-40px] lg:left-[50%] lg:top-[-82px] rotate-45 fill-pink opacity-60 min-w-[255px] w-1/5"></Tulip>
+      <Flower className="absolute left-[-80px] bottom-[-120px] lg:top-[539px] lg:left-[633.95px] rotate-53 fill-green opacity-60 min-w-[261px] w-1/5"></Flower>
+      <Star className="absolute bottom-5 left-[200px] lg:bottom-[10%] lg:left-[1400px] fill-yellow opacity-60 min-w-[392px] w-[30%]"></Star>
 
-      <div className="flex flex-col md:pl-36 md:pt-14 gap-12 sm:gap-14 md:gap-16 opacity-95">
+      <div className="flex flex-col md:pt-14 gap-12 sm:gap-14 md:gap-16 opacity-95">
         <h3 className="text-base sm:text-xl md:text-2xl">
           INTERNATIONAL BOTANY SOCIETY, PLANTING SEEDS FOR A BETTER FUTURE
         </h3>
