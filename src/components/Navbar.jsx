@@ -83,7 +83,7 @@ const LanguageSelector = () => {
 
   return (
     <Fragment>
-      <div className="sm:hidden flex gap-4 items-center">
+      <div className="md:hidden flex gap-4 items-center">
         <Globe className="w-[32px] h-[32px] fill-black" />
         {LANGUAGES.map((language) => (
           <button
@@ -95,12 +95,11 @@ const LanguageSelector = () => {
             onClick={() => setSelectedLanguage(language.language)}
             key={language.shortLanguage}
           >
-            {" "}
             {language.shortLanguage}
           </button>
         ))}
       </div>
-      <div className="hidden sm:flex">
+      <div className="hidden md:flex">
         <Globe className="w-9 lg:w-12 fill-black" />
       </div>
     </Fragment>
