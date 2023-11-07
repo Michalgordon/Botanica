@@ -24,10 +24,7 @@ const NavigationMenu = ({ open, setOpen }) => {
   function handleClick(navTo) {
     setOpen(false);
     const element = document?.getElementById(navTo);
-    element?.scrollIntoView({
-      block: "nearest",
-      behavior: "smooth",
-    });
+    window.scrollTo(0, element.offsetTop);
   }
 
   const NavigationMenuItem = ({ navbarItem }) => {
@@ -123,7 +120,7 @@ const Navbar = () => {
   useOnClickOutside(node, () => setOpen(false));
 
   return (
-    <nav className="relative z-20 w-full p-5 md:p-2 placeholder-opacity-95 scroll-mt-16">
+    <nav className="relative z-20 w-full p-5 md:p-2 placeholder-opacity-95">
       <div className="mobile-nav flex md:hidden w-full h-12 justify-between">
         <Botanica />
 
