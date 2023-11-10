@@ -74,91 +74,91 @@ export const QA_QUESTIONS = [
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-13.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-13.svg`,
       id: "16"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots.svg`,
       id: "1"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-1.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-1.svg`,
       id: "2"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-2.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-2.svg`,
       id:"3"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-3.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-3.svg`,
       id: "4"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-4.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-4.svg`,
       id: "5"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-5.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-5.svg`,
       id:"6"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-6.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-6.svg`,
       id: "7"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-7.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-7.svg`,
       id: "8"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-8.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-8.svg`,
       id:"9"
     },
     {
       name: "ROBERT TISSERAND ",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-9.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-9.svg`,
       id: "10"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Dekel was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-10.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-10.svg`,
       id: "11"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-11.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-11.svg`,
       id:"12"
     },
     {
       name: "RAKEFET SHIMONI",
       info: "Rakefet was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-12.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-12.svg`,
       id:"13"
     },
     {
       name: "PROF. DEKEL LIVNE",
       info: "Robert was the first retailer of essential oils in the UK in 1974, and has 45 years of experience in aromatherapy “functional fragrance” product development.",
-      imgPath: "./src/assets/images/speakers-headshots-14.svg",
+      imgPath: `${import.meta.env.VITE_IMG_SRC}/speakers-headshots-14.svg`,
       id: "15"
     },
 
@@ -190,7 +190,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 15,
     id: "1",
-    imgPath: "./src/assets/images/agenda-picture-3.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-3.svg`
   },
   {
     title: "Of Plants & Pollinators",
@@ -201,7 +201,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "2",
-    imgPath: "./src/assets/images/agenda-picture-2.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-2.svg`
 
   },
   {
@@ -213,7 +213,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "3",
-    imgPath: "./src/assets/images/agenda-picture-4.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-4.svg`
 
   },
   {
@@ -225,7 +225,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "4",
-    imgPath: "./src/assets/images/agenda-picture-1.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-1.svg`
   },
   {
     title: "Hydro DIY",
@@ -236,7 +236,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 15,
     id: "5",
-    imgPath: "./src/assets/images/agenda-picture-5.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-5.svg`
 
   },
   {
@@ -248,7 +248,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "6",
-    imgPath: "./src/assets/images/agenda-picture-6.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-6.svg`
   },
   {
     title: "Self-Sufficiency Part 1",
@@ -259,7 +259,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 15,
     id: "7",
-    imgPath: "./src/assets/images/agenda-picture-1.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-1.svg`
   },
   {
     title: "Buying Land",
@@ -270,7 +270,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "8",
-    imgPath: "./src/assets/images/agenda-picture-3.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-3.svg`
   },
   {
     title: "Farm Model Building Part 3",
@@ -281,7 +281,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "9",
-    imgPath: "./src/assets/images/agenda-picture-6.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-6.svg`
   },
   {
     title: "Self-Sufficiency Part 2",
@@ -292,7 +292,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "10",
-    imgPath: "./src/assets/images/agenda-picture-4.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-4.svg`
   },
   {
     title: "Hydro DIY",
@@ -303,7 +303,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 15,
     id: "11",
-    imgPath: "./src/assets/images/agenda-picture-5.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-5.svg`
 
   },
   {
@@ -315,7 +315,7 @@ export const QA_QUESTIONS = [
     available: 15,
     booked: 10,
     id: "12",
-    imgPath: "./src/assets/images/agenda-picture-6.svg"
+    imgPath: `${import.meta.env.VITE_IMG_SRC}/agenda-picture-6.svg`
   },
 ];
 
