@@ -2,16 +2,16 @@ import PropTypes from "prop-types";
 function SectionHeader({ header, subHeader = "", className, children }) {
   return (
     <header className={`flex flex-col gap-2 lg:gap-8 ${className}`}>
-      <h1 className=" text-4.5xl md:text-7.5xl leading-none uppercase">
+      <h1 className="text-4.5xl lg:text-7.5xl leading-none uppercase">
         {header}
       </h1>
       {subHeader ? (
-        <h3 className="text-xl md:text-2.5xl uppercase">{subHeader}</h3>
+        <h3 className="text-xl lg:text-2.5xl uppercase">{subHeader}</h3>
       ) : (
         ""
       )}
       <div
-        className={`text-xl md:text-2.5xl uppercase ${
+        className={`text-xl lg:text-2.5xl uppercase ${
           children ? "" : "hidden"
         }`}
       >

@@ -51,7 +51,7 @@ module.exports = {
     screens: {
       ss: {'min': '320px', 'max': '620px'}, //mobile
       sm: "620px", //tablet
-      md: "1200px", //small desktop
+      md: "1112px", //small desktop
       lg: "1700px", // large desktop
       
     },
