@@ -75,10 +75,13 @@ input::-webkit-inner-spin-button {
       @apply relative flex w-[303px] aspect-square justify-center items-center cursor-default
        }
     .speaker{
-        background-image: var(--imagePath);
+        /* background-image: var(--imagePath); */
        }
+       .speaker-image{
+        @apply relative flex w-[303px] aspect-square justify-center items-center cursor-default group-hover:hidden
+       }
+    
     .speaker--hover{
-        background-image: none;
         background-color: var(--background-color);
        }
     .speaker-mask{

@@ -27,14 +27,15 @@ const SpeakerCard = ({ speaker }) => {
         }}
         className={`speaker`}
       >
-        {/* <div
+        <img src={speaker.imgPath} className="speaker-image "></img>
+        <div
           className="speaker-mask hidden md:group-hover:inline "
           style={{
             backgroundImage: `url("${speaker.imgPath}")`,
             WebkitMaskImage: `${getRandomMask()}`,
             maskImage: `${getRandomMask()}`,
           }}
-        ></div> */}
+        ></div>
         <div className="hidden md:group-hover:flex md:group-hover:flex-col px-6 z-10">
           <Text speaker={speaker}></Text>
         </div>
