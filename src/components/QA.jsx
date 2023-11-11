@@ -25,10 +25,10 @@ function QA() {
 
   return (
     <section id="qa" className="section p-0 z-10 flex w-full bg-white ">
-      <div className="hidden bg-lightGray sm:flex sm:basis-1/2 justify-center items-center	">
+      <div className="hidden bg-lightGray md:flex md:basis-1/2 justify-center items-center	">
         <Gallery className="sm:w-40 sm:h-40 md:w-54 md:h-54"></Gallery>
       </div>
-      <div className="flex flex-col sm:basis-1/2 px-14 py-20 gap-20">
+      <div className="flex flex-col basis-full md:basis-1/2 px-14 py-20 gap-20">
         <SectionHeader
           header="Q&A"
           subHeader="THINGS YOU MIGHT WANT TO KNOW"
