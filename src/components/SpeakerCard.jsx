@@ -15,7 +15,7 @@ const SpeakerCard = ({ speaker }) => {
   const getRandomMask = () => {
     const random = Math.floor(Math.random() * 3);
     const mask = ["flower", "sun", "tulip"].at(random);
-    return `url('${import.meta.env.VITE_IMG_SRC}/${mask}.svg')`;
+    return `url('images/${mask}.svg')`;
   };
 
   return (

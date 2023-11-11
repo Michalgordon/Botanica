@@ -14,5 +14,11 @@ import Twitter from "./twitter.svg?react"
 import Facebook from "./facebook.svg?react"
 import ChevronDown from "./chevron-down.svg?react"
 import ChevronUp from "./chevron-up.svg?react"
+import Tulip from "./tulip.svg?react"
+import Sun from "./sun.svg?react"
+import Star from "./star.svg?react"
+import Flower from "./flower.svg?react"
 
-export {ChevronUp, ChevronDown, Instagram, Twitter, Facebook, Gallery, Globe, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}
+import HeroTitle from "./hero-title.svg?react"
+
+export {HeroTitle, Flower, Tulip, Sun, Star, ChevronUp, ChevronDown, Instagram, Twitter, Facebook, Gallery, Globe, ArrowDown,HamburgerClosed, Agenda, MsgBubble, QuestionMark, Ticket, Search, Plus, Minus}

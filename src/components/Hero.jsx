@@ -1,6 +1,5 @@
 import React from "react";
-import { Tulip, Flower, Star, HeroTitle } from "../assets/images";
-import { ArrowDown } from "../assets/icons";
+import { ArrowDown, Tulip, Flower, Star, HeroTitle } from "../assets/icons";
 
 const Hero = () => {
   return (
