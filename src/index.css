@@ -76,7 +76,6 @@ input::-webkit-inner-spin-button {
        }
     .speaker{
         background-image: var(--imagePath);
-        background-color: var(--background-color);
        }
     .speaker--hover{
         background-image: none;
