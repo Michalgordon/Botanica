@@ -70,27 +70,6 @@ input::-webkit-inner-spin-button {
     .section--x-scrollable {
         @apply  pl-5 pr-0 py-14 md:section 
       }
-
-    .speaker{
-      @apply relative flex w-[303px] aspect-square justify-center items-center cursor-default
-       }
-    .speaker{
-        /* background-image: var(--imagePath); */
-       }
-       .speaker-image{
-        @apply relative flex w-[303px] aspect-square justify-center items-center cursor-default group-hover:hidden
-       }
-    
-    .speaker--hover{
-        background-color: var(--background-color);
-       }
-    .speaker-mask{
-        mask-size: 271px;
-        mask-position: center;
-      }
-      .speaker-mask{
-        @apply absolute w-[303px] aspect-square [mask-repeat:no-repeat] opacity-70
-      }
     }
 
 
