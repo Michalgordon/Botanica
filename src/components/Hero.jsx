@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section id="home" className="section relative h-200">
       <Tulip className="absolute top-[-33px] left-[-40px] md:left-[50%] md:top-[-82px] rotate-45 fill-pink opacity-60 min-w-[255px] w-1/5"></Tulip>
-      <Flower className="absolute left-[-80px] bottom-[-120px] md:top-[539px] md:left-[633.95px] rotate-53 fill-green opacity-60 min-w-[261px] w-1/5"></Flower>
-      <Star className="absolute bottom-5 left-[200px] md:bottom-[10%] md:left-[1400px] fill-yellow opacity-60 min-w-[392px] w-[30%]"></Star>
+      <Flower className="absolute left-[-80px] bottom-[-120px] md:bottom-[-15%] md:left-[30%] rotate-53 fill-green opacity-60 min-w-[261px] w-1/5"></Flower>
+      <Star className="absolute bottom-5 left-[200px] md:bottom-[15%] md:left-[75%] fill-yellow opacity-60 min-w-[392px] w-[30%]"></Star>
 
       <div className="flex flex-col md:pl-36 md:pt-14 lg:pl-0 gap-12 sm:gap-14 md:gap-16 opacity-95">
         <h3 className="text-base sm:text-xl md:text-2xl">
