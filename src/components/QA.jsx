@@ -31,7 +31,7 @@ function QA() {
           autoPlay
           muted
           loop
-          src="/public/Media/plants-grow.mp4"
+          src="/media/plants-grow.mp4"
         ></video>
       </div>
       <div className="flex flex-col basis-full md:basis-1/2 px-14 py-20 justify-between h-150">
