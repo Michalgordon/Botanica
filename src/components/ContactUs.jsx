@@ -3,10 +3,10 @@ import SectionHeader from "./SectionHeader";
 import { Tulip } from "../assets/icons";
 const ContactUs = () => {
   return (
-    <div className="relative section section--col flex flex-col gap-16 sm:flex-row sm:px-36 sm:py-40 bg-pink">
-      <Tulip className="absolute invisible md:visible fill-primary -bottom-[10%] left-[10%] xl:left-[5%] rotate-[30deg] w-72 xl:w-80" />
+    <div className="relative section section--col flex flex-col gap-16 md:flex-row md:px-36 md:py-40 bg-pink">
+      <Tulip className="absolute invisible md:visible fill-primary -bottom-[10%] left-[10%] lg:left-[5%] rotate-[30deg] w-72 lg:w-80" />
 
-      <div className="flex flex-col sm:basis-1/2 text-white	">
+      <div className="flex flex-col md:basis-1/2 text-white	">
         <SectionHeader
           className=""
           header="have any more questions?"
@@ -14,7 +14,7 @@ const ContactUs = () => {
         />
       </div>
 
-      <form className="flex flex-col gap-11 sm:basis-1/2 pb-6 sm:pb-0">
+      <form className="flex flex-col gap-11 md:basis-1/2 pb-6 md:pb-0">
         <input
           type="text"
           placeholder="Subject of address"
